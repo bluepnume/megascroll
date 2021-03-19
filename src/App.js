@@ -14,7 +14,7 @@ function App() {
 
   const activateItem = (item) => {
     setActiveItem(item);
-    contentsRef.current.scrollIntoView();
+    contentsRef.current.scrollIntoView({ behavior: 'smooth '});
   }
 
   return (
